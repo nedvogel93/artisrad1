@@ -1,1 +1,0 @@
-# artisrad1
