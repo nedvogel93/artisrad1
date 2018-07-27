@@ -16,8 +16,10 @@ class Item extends Component {
                    <div>
                       {item.comments.map(
                           comment=> 
-                          <hr />
-                          <p>{comment}</p> 
+                          <div>
+                            <hr />
+                            <p>{comment}</p> 
+                          </div>
                       )
                       }
                    </div>
