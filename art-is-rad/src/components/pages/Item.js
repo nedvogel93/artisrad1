@@ -21,6 +21,11 @@ class Item extends Component {
                       )
                       }
                    </div>
+                   <form>
+                       {/* code for posting new comment goes here
+                        
+                     */}
+                   </form>
                </div>
            </div>
        )

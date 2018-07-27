@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const NavTabs = () => (
   <ul className="nav nav-tabs">
     <li className="nav-item">
@@ -20,6 +21,7 @@ const NavTabs = () => (
         Placeholder
         </span>
     </li>
+
     <li className="nav-item">
       <Link
         to="/login"
