@@ -15,7 +15,7 @@ const userSchema = new Schema({
              type: String,
              required: true
          },
-         postRating: {type: Number,
+         postRating: {type: Array,
                       required: false  },
         postDescription:{
             type: String,
