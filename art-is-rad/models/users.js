@@ -15,6 +15,8 @@ const userSchema = new Schema({
              type: String,
              required: true
          },
+         postRating: {type: Number,
+                      required: false  },
         postDescription:{
             type: String,
             required: true
@@ -27,10 +29,11 @@ const userSchema = new Schema({
         comments: [{
             type: String,
             required: false
-        }]}]
+        }]
+    }]
     
 })
 
 const user = mongoose.model("user", userSchema);
 
-module.exports = user
+module.exports = user;
